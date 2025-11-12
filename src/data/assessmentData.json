@@ -1,0 +1,7 @@
+{
+  "trip_1": "trip_1_cross_country.json",
+  "trip_2": "trip_2_urban_dense.json",
+  "trip_3": "trip_3_mountain_cancelled.json",
+  "trip_4": "trip_4_southern_technical.json",
+  "trip_5": "trip_5_regional_logistics.json"
+}

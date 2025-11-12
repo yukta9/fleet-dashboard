@@ -1,0 +1,39 @@
+{
+  "trips": [
+    {
+      "id": "trip_1_cross_country",
+      "name": "Cross-Country Long Haul",
+      "type": "long-haul",
+      "description": "NYC to Los Angeles cross-country route",
+      "dataFile": "/data/trip_1_cross_country.json"
+    },
+    {
+      "id": "trip_2_urban_dense",
+      "name": "Urban Dense Delivery",
+      "type": "urban",
+      "description": "San Francisco urban delivery network",
+      "dataFile": "/data/trip_2_urban_dense.json"
+    },
+    {
+      "id": "trip_3_mountain_cancelled",
+      "name": "Mountain Route - Cancelled",
+      "type": "mountain",
+      "description": "Denver mountain route (cancelled)",
+      "dataFile": "/data/trip_3_mountain_cancelled.json"
+    },
+    {
+      "id": "trip_4_southern_technical",
+      "name": "Southern Route - Technical Issues",
+      "type": "technical",
+      "description": "Miami southern logistics with technical challenges",
+      "dataFile": "/data/trip_4_southern_technical.json"
+    },
+    {
+      "id": "trip_5_regional_logistics",
+      "name": "Regional Logistics Hub",
+      "type": "regional",
+      "description": "Atlanta regional logistics network",
+      "dataFile": "/data/trip_5_regional_logistics.json"
+    }
+  ]
+}
