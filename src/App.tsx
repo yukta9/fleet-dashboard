@@ -13,7 +13,7 @@ export default function App() {
   const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
-    // Initialize mock data
+    // Initialize mock data 
     if (!isInitialized) {
       dispatch(setLoading(true));
 
@@ -27,7 +27,7 @@ export default function App() {
   }, [dispatch, isInitialized]);
 
   return (
-    <div className="w-full h-full bg-light dark:bg-dark text-primary dark:text-textPrimaryDark">
+    <div className="w-full h-full bg-light dark:bg-dark text-primary dark:text-textPrimaryDark ">
       <Layout />
     </div>
   );
