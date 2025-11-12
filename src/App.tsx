@@ -22,6 +22,7 @@ export default function App() {
       const trips = generateTrips(5, drivers, vehicles);
 
       dispatch(setTrips(trips));
+      
       setIsInitialized(true);
     }
   }, [dispatch, isInitialized]);
